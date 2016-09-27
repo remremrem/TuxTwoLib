@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Tux2.TuxTwoLib</groupId>
+  <artifactId>TuxTwoLib</artifactId>
+  <version>1.10.2-b1-SNAPSHOT</version>
+	<name>TuxTwoLib</name>
+	<description>TuxTwoLib is an inventory library by Tux2</description>
+	<repositories>
+		<repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>mvn-repo-jsonsimple</id>
+			<url>https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple</url>
+		</repository>
+		<repository>
+			<id>mvn-repo-guava</id>
+			<url>https://mvnrepository.com/artifact/com.google.guava/guava</url>
+		</repository>
+	</repositories>
+	<scm>
+		<developerConnection>scm:git:git@github.com:remremrem/TuxTwoLib.git</developerConnection>
+		<connection>scm:git:git://github.com/remremrem/TuxTwoLib.git</connection>
+		<url>https://github.com/remremrem/TuxTwoLib/tree/master/</url>
+	</scm>
+	<dependencies>
+		<dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.10.2-R0.1-SNAPSHOT</version>
+			<scope>provided</scope>
+ 		</dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>craftbukkit</artifactId>
+            <version>1.10.2-R0.1-SNAPSHOT</version>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency><dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+	</dependencies>
+    <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<url>https://github.com/remremrem/TuxTwoLib</url>
+</project>
+
